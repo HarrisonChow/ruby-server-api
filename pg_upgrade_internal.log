@@ -1,0 +1,35 @@
+
+-----------------------------------------------------------------
+  pg_upgrade run on Wed Feb  1 22:56:38 2017
+-----------------------------------------------------------------
+
+You must identify the directory where the old cluster binaries reside.
+Please use the -b command-line option or the PGBINOLD environment variable.
+
+-----------------------------------------------------------------
+  pg_upgrade run on Wed Feb  1 23:01:44 2017
+-----------------------------------------------------------------
+
+You must identify the directory where the old cluster binaries reside.
+Please use the -b command-line option or the PGBINOLD environment variable.
+
+-----------------------------------------------------------------
+  pg_upgrade run on Wed Feb  1 23:02:15 2017
+-----------------------------------------------------------------
+
+You must identify the directory where the new cluster binaries reside.
+Please use the -B command-line option or the PGBINNEW environment variable.
+
+-----------------------------------------------------------------
+  pg_upgrade run on Wed Feb  1 23:02:39 2017
+-----------------------------------------------------------------
+
+You must identify the directory where the old cluster data resides.
+Please use the -d command-line option or the PGDATAOLD environment variable.
+
+-----------------------------------------------------------------
+  pg_upgrade run on Wed Feb  1 23:04:15 2017
+-----------------------------------------------------------------
+
+/usr/local/Cellar/postgresql/9.4.4/bin/pg_controldata is not a directory
+
