@@ -8,7 +8,7 @@ class Api::V1::UsersController < ApplicationController
   def create
     user = User.new(user_params)
     if user.save
-      render json:user, status:201
+      render json: user, status:201
     else
       render json: {errors: user.errors}, status:422
     end
@@ -21,6 +21,10 @@ class Api::V1::UsersController < ApplicationController
     else
       render json: {errors: user.errors}, status:422
     end
+  end
+
+  def preview
+    render json: {"content": 'hello'}, status:200
   end
 
   def destroy

@@ -2,7 +2,9 @@ Rails.application.routes.draw do
   namespace :api, defaults: {format: :json} do
     namespace :v1 do
       # get '/users/:id', to: 'users#show'
-      resources :users, :only => [:show, :create, :update, :destroy]
+      resources :users, :only => [:show, :create, :update, :destroy] do
+        get 'preview', on: :member
+      end
     end
   end
 end
